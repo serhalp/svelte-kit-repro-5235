@@ -1,0 +1,9 @@
+[[edge_functions]]
+  path = "/foo/*"
+  excludedPath = ["/foo/bar"]
+  function = "path-includes-foo-excludes-foo-bar"
+
+[[edge_functions]]
+  pattern = "/foo/.*"
+  excludedPattern = ["/foo/bar"]
+  function = "pattern-includes-foo-excludes-foo-bar"
